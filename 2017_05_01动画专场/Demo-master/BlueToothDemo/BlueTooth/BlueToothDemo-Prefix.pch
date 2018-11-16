@@ -1,0 +1,32 @@
+//
+//  BlueTooth-Prefix.pch
+//  BlueTooth
+//
+//  Created by Kangqj on 15/11/2.
+//  Copyright (c) 2015年 Kangqj. All rights reserved.
+//
+
+#ifndef BlueTooth_BlueTooth_Prefix_pch
+#define BlueTooth_BlueTooth_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import "CentralOperateManager.h"
+#import "PeripheralOperateManager.h"
+#import "UIColor_RandomColor.h"
+#import "UIImage_Colorful.h"
+
+static NSString *const ServiceUUID =  @"FFF0";
+static NSString *const CharacteristicUUID =  @"FFF1";
+static NSString *const NameKey =  @"A";
+
+static NSString *const BumpKey      =  @"bump"; //发现
+static NSString *const TransferKey  =  @"transfer"; //传输
+static NSString *const ArchiverKey  =  @"Archiver";
+
+#endif
+
+
+#endif
