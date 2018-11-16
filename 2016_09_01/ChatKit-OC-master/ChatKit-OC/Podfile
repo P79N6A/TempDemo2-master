@@ -1,0 +1,22 @@
+platform :ios , '7.0' 
+target 'ChatKit-OC' do
+# ignoring warning from pods
+inhibit_all_warnings!
+
+#=========================================================
+#======================== Lib Dependency =================
+#=========================================================
+pod 'ChatKit', :path => '../'
+
+#=========================================================
+#======================== Demo Dependency ================
+#=========================================================
+
+pod 'CYLTabBarController'
+pod "CYLTableViewRowAction", "1.0.0"
+pod 'TWMessageBarManager'
+pod 'MLPAutoCompleteTextField'
+#pod 'MLeaksFinder'
+pod 'FTPopOverMenu'
+
+end
