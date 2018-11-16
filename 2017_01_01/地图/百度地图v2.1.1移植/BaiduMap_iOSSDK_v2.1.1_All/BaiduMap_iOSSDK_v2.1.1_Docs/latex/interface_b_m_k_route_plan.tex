@@ -1,0 +1,56 @@
+\hypertarget{interface_b_m_k_route_plan}{\section{B\-M\-K\-Route\-Plan 类参考}
+\label{interface_b_m_k_route_plan}\index{B\-M\-K\-Route\-Plan@{B\-M\-K\-Route\-Plan}}
+}
+
+
+此类表示一条驾车或步行方案  
+
+
+
+
+{\ttfamily \#import $<$B\-M\-K\-Route\-Search\-Type.\-h$>$}
+
+继承关系图 B\-M\-K\-Route\-Plan\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_b_m_k_route_plan}
+\end{center}
+\end{figure}
+\subsection*{保护成员变量}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_b_m_k_route_plan_aa62820a95ab248f113a882b864230135}{N\-S\-Array $\ast$ {\bfseries \-\_\-routes}}\label{interface_b_m_k_route_plan_aa62820a95ab248f113a882b864230135}
+
+\item 
+\hypertarget{interface_b_m_k_route_plan_a4cb33a70d8ccb68be849066fd5c3bbf0}{\hyperlink{interface_b_m_k_time}{B\-M\-K\-Time} $\ast$ {\bfseries \-\_\-time}}\label{interface_b_m_k_route_plan_a4cb33a70d8ccb68be849066fd5c3bbf0}
+
+\item 
+\hypertarget{interface_b_m_k_route_plan_a09571d9877932dd750cf4cc2ec80bb6e}{B\-O\-O\-L {\bfseries \-\_\-is\-Support\-Traffic}}\label{interface_b_m_k_route_plan_a09571d9877932dd750cf4cc2ec80bb6e}
+
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_b_m_k_route_plan_afb7f5f3ff9b33d65172aaf4657d0d0d6}{int {\bfseries \-\_\-distance}}\label{interface_b_m_k_route_plan_afb7f5f3ff9b33d65172aaf4657d0d0d6}
+
+\item 
+\hypertarget{interface_b_m_k_route_plan_aa9020d0fe83a58c2192157f47d7930eb}{int \hyperlink{interface_b_m_k_route_plan_aa9020d0fe83a58c2192157f47d7930eb}{distance}}\label{interface_b_m_k_route_plan_aa9020d0fe83a58c2192157f47d7930eb}
+
+\begin{DoxyCompactList}\small\item\em 方案总距离 \end{DoxyCompactList}\item 
+\hypertarget{interface_b_m_k_route_plan_a93cd92070e92c4c1a25a8e127bd8b6d5}{N\-S\-Array $\ast$ \hyperlink{interface_b_m_k_route_plan_a93cd92070e92c4c1a25a8e127bd8b6d5}{routes}}\label{interface_b_m_k_route_plan_a93cd92070e92c4c1a25a8e127bd8b6d5}
+
+\begin{DoxyCompactList}\small\item\em B\-M\-K\-Route数组 \end{DoxyCompactList}\item 
+\hypertarget{interface_b_m_k_route_plan_a7a9c75c4bd6030b7db60bc320b537077}{\hyperlink{interface_b_m_k_time}{B\-M\-K\-Time} $\ast$ \hyperlink{interface_b_m_k_route_plan_a7a9c75c4bd6030b7db60bc320b537077}{time}}\label{interface_b_m_k_route_plan_a7a9c75c4bd6030b7db60bc320b537077}
+
+\begin{DoxyCompactList}\small\item\em 方案预计的行驶时间 \end{DoxyCompactList}\item 
+\hypertarget{interface_b_m_k_route_plan_a0e2d9ca39e9f21cd34460aa6d0044667}{B\-O\-O\-L \hyperlink{interface_b_m_k_route_plan_a0e2d9ca39e9f21cd34460aa6d0044667}{is\-Support\-Traffic}}\label{interface_b_m_k_route_plan_a0e2d9ca39e9f21cd34460aa6d0044667}
+
+\begin{DoxyCompactList}\small\item\em 当前方案是否支持躲避拥堵方案，如果请求策略是躲避拥堵，并且此值返回\-Y\-E\-S，则返回结果是躲避拥堵的方案。（这个属性只对驾车方案有效，步行检索请忽略此属性） \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{详细描述}
+此类表示一条驾车或步行方案 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+B\-M\-K\-Route\-Search\-Type.\-h\end{DoxyCompactItemize}

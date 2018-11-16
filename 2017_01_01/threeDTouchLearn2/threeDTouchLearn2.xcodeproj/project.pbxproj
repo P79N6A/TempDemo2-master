@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7CBE4E91ED962650060C1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4E81ED962650060C1E9 /* main.m */; };
+		C7CBE4EC1ED962650060C1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4EB1ED962650060C1E9 /* AppDelegate.m */; };
+		C7CBE4EF1ED962650060C1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4EE1ED962650060C1E9 /* ViewController.m */; };
+		C7CBE4F21ED962650060C1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CBE4F01ED962650060C1E9 /* Main.storyboard */; };
+		C7CBE4F41ED962650060C1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CBE4F31ED962650060C1E9 /* Assets.xcassets */; };
+		C7CBE4F71ED962650060C1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CBE4F51ED962650060C1E9 /* LaunchScreen.storyboard */; };
+		C7CBE5011ED962990060C1E9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE5001ED962990060C1E9 /* RootViewController.m */; };
+		C7CBE5171ED96D8B0060C1E9 /* diqiu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CBE5151ED96D8B0060C1E9 /* diqiu@2x.png */; };
+		C7CBE5181ED96D8B0060C1E9 /* saoyisao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CBE5161ED96D8B0060C1E9 /* saoyisao@2x.png */; };
+		C7E764B21EDE95370075DD12 /* PreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E764B11EDE95370075DD12 /* PreVC.m */; };
+		C7E764B51EDE95CC0075DD12 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E764B41EDE95CC0075DD12 /* DemoCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7CBE4E41ED962650060C1E9 /* threeDTouchLearn2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threeDTouchLearn2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CBE4E81ED962650060C1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7CBE4EA1ED962650060C1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7CBE4EB1ED962650060C1E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7CBE4ED1ED962650060C1E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7CBE4EE1ED962650060C1E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7CBE4F11ED962650060C1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7CBE4F31ED962650060C1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CBE4F61ED962650060C1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7CBE4F81ED962650060C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CBE4FF1ED962990060C1E9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C7CBE5001ED962990060C1E9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C7CBE5151ED96D8B0060C1E9 /* diqiu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diqiu@2x.png"; sourceTree = "<group>"; };
+		C7CBE5161ED96D8B0060C1E9 /* saoyisao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saoyisao@2x.png"; sourceTree = "<group>"; };
+		C7E764B01EDE95370075DD12 /* PreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreVC.h; sourceTree = "<group>"; };
+		C7E764B11EDE95370075DD12 /* PreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreVC.m; sourceTree = "<group>"; };
+		C7E764B31EDE95C80075DD12 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		C7E764B41EDE95CC0075DD12 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CBE4E11ED962650060C1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CBE4DB1ED962650060C1E9 = {
+			isa = PBXGroup;
+			children = (
+				C7CBE4E61ED962650060C1E9 /* threeDTouchLearn2 */,
+				C7CBE4E51ED962650060C1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CBE4E51ED962650060C1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CBE4E41ED962650060C1E9 /* threeDTouchLearn2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CBE4E61ED962650060C1E9 /* threeDTouchLearn2 */ = {
+			isa = PBXGroup;
+			children = (
+				C7CBE4EA1ED962650060C1E9 /* AppDelegate.h */,
+				C7CBE4EB1ED962650060C1E9 /* AppDelegate.m */,
+				C7CBE4ED1ED962650060C1E9 /* ViewController.h */,
+				C7CBE4EE1ED962650060C1E9 /* ViewController.m */,
+				C7CBE4FE1ED962910060C1E9 /* RootVC */,
+				C7CBE4F01ED962650060C1E9 /* Main.storyboard */,
+				C7CBE4F31ED962650060C1E9 /* Assets.xcassets */,
+				C7CBE4F51ED962650060C1E9 /* LaunchScreen.storyboard */,
+				C7CBE4F81ED962650060C1E9 /* Info.plist */,
+				C7CBE4E71ED962650060C1E9 /* Supporting Files */,
+			);
+			path = threeDTouchLearn2;
+			sourceTree = "<group>";
+		};
+		C7CBE4E71ED962650060C1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7CBE4E81ED962650060C1E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7CBE4FE1ED962910060C1E9 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7E764AF1EDE95270075DD12 /* PreVC */,
+				C7CBE5021ED965C20060C1E9 /* views */,
+				C7CBE4FF1ED962990060C1E9 /* RootViewController.h */,
+				C7CBE5001ED962990060C1E9 /* RootViewController.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		C7CBE5021ED965C20060C1E9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C7E764B31EDE95C80075DD12 /* DemoCollectionViewCell.h */,
+				C7E764B41EDE95CC0075DD12 /* DemoCollectionViewCell.m */,
+				C7CBE5151ED96D8B0060C1E9 /* diqiu@2x.png */,
+				C7CBE5161ED96D8B0060C1E9 /* saoyisao@2x.png */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C7E764AF1EDE95270075DD12 /* PreVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7E764B01EDE95370075DD12 /* PreVC.h */,
+				C7E764B11EDE95370075DD12 /* PreVC.m */,
+			);
+			path = PreVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CBE4E31ED962650060C1E9 /* threeDTouchLearn2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CBE4FB1ED962650060C1E9 /* Build configuration list for PBXNativeTarget "threeDTouchLearn2" */;
+			buildPhases = (
+				C7CBE4E01ED962650060C1E9 /* Sources */,
+				C7CBE4E11ED962650060C1E9 /* Frameworks */,
+				C7CBE4E21ED962650060C1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threeDTouchLearn2;
+			productName = threeDTouchLearn2;
+			productReference = C7CBE4E41ED962650060C1E9 /* threeDTouchLearn2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CBE4DC1ED962650060C1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaoyulong;
+				TargetAttributes = {
+					C7CBE4E31ED962650060C1E9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 76A5MLR63J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7CBE4DF1ED962650060C1E9 /* Build configuration list for PBXProject "threeDTouchLearn2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CBE4DB1ED962650060C1E9;
+			productRefGroup = C7CBE4E51ED962650060C1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CBE4E31ED962650060C1E9 /* threeDTouchLearn2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CBE4E21ED962650060C1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CBE4F71ED962650060C1E9 /* LaunchScreen.storyboard in Resources */,
+				C7CBE5171ED96D8B0060C1E9 /* diqiu@2x.png in Resources */,
+				C7CBE4F41ED962650060C1E9 /* Assets.xcassets in Resources */,
+				C7CBE5181ED96D8B0060C1E9 /* saoyisao@2x.png in Resources */,
+				C7CBE4F21ED962650060C1E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CBE4E01ED962650060C1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CBE4EF1ED962650060C1E9 /* ViewController.m in Sources */,
+				C7CBE4EC1ED962650060C1E9 /* AppDelegate.m in Sources */,
+				C7CBE5011ED962990060C1E9 /* RootViewController.m in Sources */,
+				C7E764B51EDE95CC0075DD12 /* DemoCollectionViewCell.m in Sources */,
+				C7CBE4E91ED962650060C1E9 /* main.m in Sources */,
+				C7E764B21EDE95370075DD12 /* PreVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7CBE4F01ED962650060C1E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CBE4F11ED962650060C1E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7CBE4F51ED962650060C1E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CBE4F61ED962650060C1E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7CBE4F91ED962650060C1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7CBE4FA1ED962650060C1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CBE4FC1ED962650060C1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = threeDTouchLearn2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.threeDTouchLearn2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7CBE4FD1ED962650060C1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = threeDTouchLearn2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.threeDTouchLearn2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CBE4DF1ED962650060C1E9 /* Build configuration list for PBXProject "threeDTouchLearn2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CBE4F91ED962650060C1E9 /* Debug */,
+				C7CBE4FA1ED962650060C1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CBE4FB1ED962650060C1E9 /* Build configuration list for PBXNativeTarget "threeDTouchLearn2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CBE4FC1ED962650060C1E9 /* Debug */,
+				C7CBE4FD1ED962650060C1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CBE4DC1ED962650060C1E9 /* Project object */;
+}

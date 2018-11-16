@@ -1,0 +1,46 @@
+\hypertarget{protocol_b_m_k_user_location_delegate-p}{\section{$<$B\-M\-K\-User\-Location\-Delegate$>$ 协议参考}
+\label{protocol_b_m_k_user_location_delegate-p}\index{$<$\-B\-M\-K\-User\-Location\-Delegate$>$@{$<$\-B\-M\-K\-User\-Location\-Delegate$>$}}
+}
+
+
+定位服务\-Delegate,调用start\-User\-Location\-Service定位成功后，用此\-Delegate来获取定位数据  
+
+
+
+
+{\ttfamily \#import $<$B\-M\-K\-User\-Location.\-h$>$}
+
+继承关系图 $<$B\-M\-K\-User\-Location\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_b_m_k_user_location_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{实例方法}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_b_m_k_user_location_delegate-p_a6eb799459f7a93da48fddd28bb5512f7}{view\-Did\-Get\-Locating\-User\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{详细描述}
+定位服务\-Delegate,调用start\-User\-Location\-Service定位成功后，用此\-Delegate来获取定位数据 
+
+\subsection{方法文档}
+\hypertarget{protocol_b_m_k_user_location_delegate-p_a6eb799459f7a93da48fddd28bb5512f7}{\index{B\-M\-K\-User\-Location\-Delegate-\/p@{B\-M\-K\-User\-Location\-Delegate-\/p}!view\-Did\-Get\-Locating\-User\-:@{view\-Did\-Get\-Locating\-User\-:}}
+\index{view\-Did\-Get\-Locating\-User\-:@{view\-Did\-Get\-Locating\-User\-:}!BMKUserLocationDelegate-p@{B\-M\-K\-User\-Location\-Delegate-\/p}}
+\subsubsection[{view\-Did\-Get\-Locating\-User\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) view\-Did\-Get\-Locating\-User\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-L\-Location\-Coordinate2\-D)}]{user\-Loc}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_b_m_k_user_location_delegate-p_a6eb799459f7a93da48fddd28bb5512f7}
+调用start\-User\-Location\-Service定位成功后，会调用此函数 
+\begin{DoxyParams}{参数}
+{\em user\-Loc} & 我的位置坐标 \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+B\-M\-K\-User\-Location.\-h\end{DoxyCompactItemize}
