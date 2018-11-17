@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  HttpStream
+//
+//  Created by mac on 16/5/26.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "VideoInfo.h"
+#import "HttpKit.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif

@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130277E11CE738E00033022E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130277E01CE738E00033022E /* main.m */; };
+		130277E41CE738E00033022E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 130277E31CE738E00033022E /* AppDelegate.m */; };
+		130277E71CE738E00033022E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130277E61CE738E00033022E /* ViewController.m */; };
+		130277EA1CE738E00033022E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130277E81CE738E00033022E /* Main.storyboard */; };
+		130277EC1CE738E00033022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130277EB1CE738E00033022E /* Assets.xcassets */; };
+		130277EF1CE738E00033022E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130277ED1CE738E00033022E /* LaunchScreen.storyboard */; };
+		130277FA1CE738E00033022E /* SDAutolayouttableView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130277F91CE738E00033022E /* SDAutolayouttableView__Tests.m */; };
+		130278051CE738E10033022E /* SDAutolayouttableView__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130278041CE738E10033022E /* SDAutolayouttableView__UITests.m */; };
+		130278551CE8A1FD0033022E /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 130278541CE8A1FD0033022E /* avatar.png */; };
+		13EB5B881D3283CE00067CD3 /* MYHSliderChangeLabelFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EB5B871D3283CE00067CD3 /* MYHSliderChangeLabelFont.m */; };
+		13EB5B8A1D32863300067CD3 /* MyhCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EB5B891D32863300067CD3 /* MyhCell.m */; };
+		2BE714643B64952C4FDBF706 /* libPods-SDAutolayouttableView练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D3208E3DD8CBACBC53B1F6 /* libPods-SDAutolayouttableView练习.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130277F61CE738E00033022E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130277D41CE738E00033022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130277DB1CE738E00033022E;
+			remoteInfo = "SDAutolayouttableView练习";
+		};
+		130278011CE738E00033022E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130277D41CE738E00033022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130277DB1CE738E00033022E;
+			remoteInfo = "SDAutolayouttableView练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130277DC1CE738E00033022E /* SDAutolayouttableView练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDAutolayouttableView练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130277E01CE738E00033022E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		130277E21CE738E00033022E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		130277E31CE738E00033022E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		130277E51CE738E00033022E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		130277E61CE738E00033022E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		130277E91CE738E00033022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		130277EB1CE738E00033022E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		130277EE1CE738E00033022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		130277F01CE738E00033022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130277F51CE738E00033022E /* SDAutolayouttableView练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDAutolayouttableView练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130277F91CE738E00033022E /* SDAutolayouttableView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAutolayouttableView__Tests.m; sourceTree = "<group>"; };
+		130277FB1CE738E00033022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130278001CE738E00033022E /* SDAutolayouttableView练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDAutolayouttableView练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130278041CE738E10033022E /* SDAutolayouttableView__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAutolayouttableView__UITests.m; sourceTree = "<group>"; };
+		130278061CE738E10033022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130278121CE739090033022E /* MyhCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyhCell.h; sourceTree = "<group>"; };
+		130278541CE8A1FD0033022E /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		13EB5B861D3283CE00067CD3 /* MYHSliderChangeLabelFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHSliderChangeLabelFont.h; sourceTree = "<group>"; };
+		13EB5B871D3283CE00067CD3 /* MYHSliderChangeLabelFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYHSliderChangeLabelFont.m; sourceTree = "<group>"; };
+		13EB5B891D32863300067CD3 /* MyhCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyhCell.m; sourceTree = "<group>"; };
+		25D3208E3DD8CBACBC53B1F6 /* libPods-SDAutolayouttableView练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDAutolayouttableView练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3F6E92C0AD7C10AEC0F3C2 /* Pods-SDAutolayouttableView练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDAutolayouttableView练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDAutolayouttableView练习/Pods-SDAutolayouttableView练习.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0526D42091AF73C8EE55B7 /* Pods-SDAutolayouttableView练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDAutolayouttableView练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDAutolayouttableView练习/Pods-SDAutolayouttableView练习.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130277D91CE738E00033022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE714643B64952C4FDBF706 /* libPods-SDAutolayouttableView练习.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277F21CE738E00033022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277FD1CE738E00033022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130277D31CE738E00033022E = {
+			isa = PBXGroup;
+			children = (
+				130277DE1CE738E00033022E /* SDAutolayouttableView练习 */,
+				130277F81CE738E00033022E /* SDAutolayouttableView练习Tests */,
+				130278031CE738E10033022E /* SDAutolayouttableView练习UITests */,
+				130277DD1CE738E00033022E /* Products */,
+				C57396A876392C5AF323B842 /* Pods */,
+				64A8C735246B087ECFE59E33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		130277DD1CE738E00033022E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				130277DC1CE738E00033022E /* SDAutolayouttableView练习.app */,
+				130277F51CE738E00033022E /* SDAutolayouttableView练习Tests.xctest */,
+				130278001CE738E00033022E /* SDAutolayouttableView练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		130277DE1CE738E00033022E /* SDAutolayouttableView练习 */ = {
+			isa = PBXGroup;
+			children = (
+				13EB5B851D3283CE00067CD3 /* MYHSliderChangeLabelFont */,
+				130277E21CE738E00033022E /* AppDelegate.h */,
+				130277E31CE738E00033022E /* AppDelegate.m */,
+				130277E51CE738E00033022E /* ViewController.h */,
+				130277E61CE738E00033022E /* ViewController.m */,
+				130278121CE739090033022E /* MyhCell.h */,
+				13EB5B891D32863300067CD3 /* MyhCell.m */,
+				130278541CE8A1FD0033022E /* avatar.png */,
+				130277E81CE738E00033022E /* Main.storyboard */,
+				130277EB1CE738E00033022E /* Assets.xcassets */,
+				130277ED1CE738E00033022E /* LaunchScreen.storyboard */,
+				130277F01CE738E00033022E /* Info.plist */,
+				130277DF1CE738E00033022E /* Supporting Files */,
+			);
+			path = "SDAutolayouttableView练习";
+			sourceTree = "<group>";
+		};
+		130277DF1CE738E00033022E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				130277E01CE738E00033022E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		130277F81CE738E00033022E /* SDAutolayouttableView练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				130277F91CE738E00033022E /* SDAutolayouttableView__Tests.m */,
+				130277FB1CE738E00033022E /* Info.plist */,
+			);
+			path = "SDAutolayouttableView练习Tests";
+			sourceTree = "<group>";
+		};
+		130278031CE738E10033022E /* SDAutolayouttableView练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				130278041CE738E10033022E /* SDAutolayouttableView__UITests.m */,
+				130278061CE738E10033022E /* Info.plist */,
+			);
+			path = "SDAutolayouttableView练习UITests";
+			sourceTree = "<group>";
+		};
+		13EB5B851D3283CE00067CD3 /* MYHSliderChangeLabelFont */ = {
+			isa = PBXGroup;
+			children = (
+				13EB5B861D3283CE00067CD3 /* MYHSliderChangeLabelFont.h */,
+				13EB5B871D3283CE00067CD3 /* MYHSliderChangeLabelFont.m */,
+			);
+			path = MYHSliderChangeLabelFont;
+			sourceTree = "<group>";
+		};
+		64A8C735246B087ECFE59E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D3208E3DD8CBACBC53B1F6 /* libPods-SDAutolayouttableView练习.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C57396A876392C5AF323B842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3F6E92C0AD7C10AEC0F3C2 /* Pods-SDAutolayouttableView练习.debug.xcconfig */,
+				AE0526D42091AF73C8EE55B7 /* Pods-SDAutolayouttableView练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130277DB1CE738E00033022E /* SDAutolayouttableView练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130278091CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习" */;
+			buildPhases = (
+				9B3C9FB41E1E2573956A8016 /* [CP] Check Pods Manifest.lock */,
+				130277D81CE738E00033022E /* Sources */,
+				130277D91CE738E00033022E /* Frameworks */,
+				130277DA1CE738E00033022E /* Resources */,
+				F4F24EB0BF7E7DBFCA7F5CEA /* [CP] Embed Pods Frameworks */,
+				3BE8E59B1104A108E43B94DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDAutolayouttableView练习";
+			productName = "SDAutolayouttableView练习";
+			productReference = 130277DC1CE738E00033022E /* SDAutolayouttableView练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		130277F41CE738E00033022E /* SDAutolayouttableView练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302780C1CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习Tests" */;
+			buildPhases = (
+				130277F11CE738E00033022E /* Sources */,
+				130277F21CE738E00033022E /* Frameworks */,
+				130277F31CE738E00033022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130277F71CE738E00033022E /* PBXTargetDependency */,
+			);
+			name = "SDAutolayouttableView练习Tests";
+			productName = "SDAutolayouttableView练习Tests";
+			productReference = 130277F51CE738E00033022E /* SDAutolayouttableView练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		130277FF1CE738E00033022E /* SDAutolayouttableView练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302780F1CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习UITests" */;
+			buildPhases = (
+				130277FC1CE738E00033022E /* Sources */,
+				130277FD1CE738E00033022E /* Frameworks */,
+				130277FE1CE738E00033022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130278021CE738E00033022E /* PBXTargetDependency */,
+			);
+			name = "SDAutolayouttableView练习UITests";
+			productName = "SDAutolayouttableView练习UITests";
+			productReference = 130278001CE738E00033022E /* SDAutolayouttableView练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130277D41CE738E00033022E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ltygs;
+				TargetAttributes = {
+					130277DB1CE738E00033022E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					130277F41CE738E00033022E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 130277DB1CE738E00033022E;
+					};
+					130277FF1CE738E00033022E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 130277DB1CE738E00033022E;
+					};
+				};
+			};
+			buildConfigurationList = 130277D71CE738E00033022E /* Build configuration list for PBXProject "SDAutolayouttableView练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 130277D31CE738E00033022E;
+			productRefGroup = 130277DD1CE738E00033022E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130277DB1CE738E00033022E /* SDAutolayouttableView练习 */,
+				130277F41CE738E00033022E /* SDAutolayouttableView练习Tests */,
+				130277FF1CE738E00033022E /* SDAutolayouttableView练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130277DA1CE738E00033022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130278551CE8A1FD0033022E /* avatar.png in Resources */,
+				130277EF1CE738E00033022E /* LaunchScreen.storyboard in Resources */,
+				130277EC1CE738E00033022E /* Assets.xcassets in Resources */,
+				130277EA1CE738E00033022E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277F31CE738E00033022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277FE1CE738E00033022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE8E59B1104A108E43B94DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDAutolayouttableView练习/Pods-SDAutolayouttableView练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3C9FB41E1E2573956A8016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F24EB0BF7E7DBFCA7F5CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDAutolayouttableView练习/Pods-SDAutolayouttableView练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130277D81CE738E00033022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB5B881D3283CE00067CD3 /* MYHSliderChangeLabelFont.m in Sources */,
+				130277E71CE738E00033022E /* ViewController.m in Sources */,
+				13EB5B8A1D32863300067CD3 /* MyhCell.m in Sources */,
+				130277E41CE738E00033022E /* AppDelegate.m in Sources */,
+				130277E11CE738E00033022E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277F11CE738E00033022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130277FA1CE738E00033022E /* SDAutolayouttableView__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130277FC1CE738E00033022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130278051CE738E10033022E /* SDAutolayouttableView__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130277F71CE738E00033022E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130277DB1CE738E00033022E /* SDAutolayouttableView练习 */;
+			targetProxy = 130277F61CE738E00033022E /* PBXContainerItemProxy */;
+		};
+		130278021CE738E00033022E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130277DB1CE738E00033022E /* SDAutolayouttableView练习 */;
+			targetProxy = 130278011CE738E00033022E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		130277E81CE738E00033022E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130277E91CE738E00033022E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		130277ED1CE738E00033022E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130277EE1CE738E00033022E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130278071CE738E10033022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		130278081CE738E10033022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1302780A1CE738E10033022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3F6E92C0AD7C10AEC0F3C2 /* Pods-SDAutolayouttableView练习.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "SDAutolayouttableView练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1302780B1CE738E10033022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0526D42091AF73C8EE55B7 /* Pods-SDAutolayouttableView练习.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "SDAutolayouttableView练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1302780D1CE738E10033022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SDAutolayouttableView练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDAutolayouttableView练习.app/SDAutolayouttableView练习";
+			};
+			name = Debug;
+		};
+		1302780E1CE738E10033022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SDAutolayouttableView练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDAutolayouttableView练习.app/SDAutolayouttableView练习";
+			};
+			name = Release;
+		};
+		130278101CE738E10033022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDAutolayouttableView练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDAutolayouttableView练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		130278111CE738E10033022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDAutolayouttableView练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sgytl.SDAutolayouttableView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDAutolayouttableView练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130277D71CE738E00033022E /* Build configuration list for PBXProject "SDAutolayouttableView练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130278071CE738E10033022E /* Debug */,
+				130278081CE738E10033022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130278091CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302780A1CE738E10033022E /* Debug */,
+				1302780B1CE738E10033022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302780C1CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302780D1CE738E10033022E /* Debug */,
+				1302780E1CE738E10033022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302780F1CE738E10033022E /* Build configuration list for PBXNativeTarget "SDAutolayouttableView练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130278101CE738E10033022E /* Debug */,
+				130278111CE738E10033022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130277D41CE738E00033022E /* Project object */;
+}

@@ -1,0 +1,24 @@
+<smil xmlns="http://www.w3.org/2000/SMIL20/CR/Language">\
+<head>\
+</head>\
+<body>\
+<par id="03106301">\
+<text title="凤凰资讯" img="icon1.png" src="http://ktv005.cdnak.ds.kylintv.net/nlds/kylin/pxinhd/as/live/pxinhd_4.m3u8"/>\
+</par>\
+<par id="03106302">\
+<text title="凤凰美洲" img="icon2.png" src="http://ktv029.cdnak.ds.kylintv.net/nlds/kylin/pxna/as/live/pxna_4.m3u8"/>\
+</par>\
+<par id="03106303">\
+<text title="凤凰中文" img="icon3.png" src="http://ktv028.cdnak.ds.kylintv.net/nlds/kylin/pxasia/as/live/pxasia_4.m3u8"/>\
+</par>\
+<par id="03106304">\
+<text title="芈月传"   img="icon4.png" src="http://yangchao0033.github.io/hlsSegement/0640.m3u8"/>\
+</par>\
+<par id="03106305">\
+<text title="苹果官方" img="icon5.png" src="http://devstreaming.apple.com/videos/wwdc/2015/413eflf3lrh1tyo/413/hls_vod_mvp.m3u8"/>\
+</par>\
+<par id="03106306">\
+<text title="爱情公寓" img="icon6.png" src="http://dlhls.cdn.zhanqi.tv/zqlive/34338_PVMT5.m3u8"/>\
+</par>\
+</body>\
+</smil>

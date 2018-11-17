@@ -1,0 +1,6 @@
+platform :ios, "9.0"
+
+target :'SDAutolayouttableView练习' do
+    pod 'SDAutoLayout'
+    
+end
