@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73985381ED2D4F3001CF86E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73985371ED2D4F3001CF86E /* main.m */; };
+		C739853B1ED2D4F3001CF86E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C739853A1ED2D4F3001CF86E /* AppDelegate.m */; };
+		C739853E1ED2D4F3001CF86E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C739853D1ED2D4F3001CF86E /* ViewController.m */; };
+		C73985411ED2D4F3001CF86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C739853F1ED2D4F3001CF86E /* Main.storyboard */; };
+		C73985431ED2D4F3001CF86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73985421ED2D4F3001CF86E /* Assets.xcassets */; };
+		C73985461ED2D4F3001CF86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73985441ED2D4F3001CF86E /* LaunchScreen.storyboard */; };
+		C73985501ED2D544001CF86E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C739854F1ED2D544001CF86E /* RootViewController.m */; };
+		C73985561ED2D5B6001CF86E /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C73985531ED2D5B6001CF86E /* MainView.m */; };
+		C73985571ED2D5B6001CF86E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73985551ED2D5B6001CF86E /* MainViewController.m */; };
+		C73985591ED2D5BB001CF86E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73985581ED2D5BB001CF86E /* MainView.xib */; };
+		C73985601ED2D5D8001CF86E /* sierpinski.png in Resources */ = {isa = PBXBuildFile; fileRef = C739855B1ED2D5D8001CF86E /* sierpinski.png */; };
+		C73985611ED2D5D8001CF86E /* sierpinskiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C739855C1ED2D5D8001CF86E /* sierpinskiIcon.png */; };
+		C73985621ED2D5D8001CF86E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C739855D1ED2D5D8001CF86E /* Default.png */; };
+		C73985631ED2D5D8001CF86E /* letsgo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C739855E1ED2D5D8001CF86E /* letsgo.m4v */; };
+		C73985641ED2D5D8001CF86E /* thx.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C739855F1ED2D5D8001CF86E /* thx.m4v */; };
+		C739856A1ED2D64F001CF86E /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C73985671ED2D64F001CF86E /* FlipsideView.m */; };
+		C739856B1ED2D64F001CF86E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73985691ED2D64F001CF86E /* FlipsideViewController.m */; };
+		C739856D1ED2D699001CF86E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C739856C1ED2D699001CF86E /* FlipsideView.xib */; };
+		C73985711ED2D6B2001CF86E /* SoundEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C739856F1ED2D6B2001CF86E /* SoundEngine.cpp */; };
+		C73985741ED2D6C4001CF86E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73985731ED2D6C4001CF86E /* OpenAL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C73985331ED2D4F3001CF86E /* SierpinskiLearn1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SierpinskiLearn1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73985371ED2D4F3001CF86E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C73985391ED2D4F3001CF86E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C739853A1ED2D4F3001CF86E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C739853C1ED2D4F3001CF86E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C739853D1ED2D4F3001CF86E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C73985401ED2D4F3001CF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C73985421ED2D4F3001CF86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73985451ED2D4F3001CF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C73985471ED2D4F3001CF86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C739854E1ED2D544001CF86E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C739854F1ED2D544001CF86E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C73985521ED2D5B6001CF86E /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		C73985531ED2D5B6001CF86E /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		C73985541ED2D5B6001CF86E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C73985551ED2D5B6001CF86E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C73985581ED2D5BB001CF86E /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C739855B1ED2D5D8001CF86E /* sierpinski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierpinski.png; sourceTree = "<group>"; };
+		C739855C1ED2D5D8001CF86E /* sierpinskiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierpinskiIcon.png; sourceTree = "<group>"; };
+		C739855D1ED2D5D8001CF86E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C739855E1ED2D5D8001CF86E /* letsgo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = letsgo.m4v; sourceTree = "<group>"; };
+		C739855F1ED2D5D8001CF86E /* thx.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = thx.m4v; sourceTree = "<group>"; };
+		C73985661ED2D64F001CF86E /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
+		C73985671ED2D64F001CF86E /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
+		C73985681ED2D64F001CF86E /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C73985691ED2D64F001CF86E /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C739856C1ED2D699001CF86E /* FlipsideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		C739856F1ED2D6B2001CF86E /* SoundEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundEngine.cpp; sourceTree = "<group>"; };
+		C73985701ED2D6B2001CF86E /* SoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEngine.h; sourceTree = "<group>"; };
+		C73985731ED2D6C4001CF86E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73985301ED2D4F3001CF86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73985741ED2D6C4001CF86E /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C739852A1ED2D4F3001CF86E = {
+			isa = PBXGroup;
+			children = (
+				C73985351ED2D4F3001CF86E /* SierpinskiLearn1 */,
+				C73985341ED2D4F3001CF86E /* Products */,
+				C73985721ED2D6C4001CF86E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C73985341ED2D4F3001CF86E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73985331ED2D4F3001CF86E /* SierpinskiLearn1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73985351ED2D4F3001CF86E /* SierpinskiLearn1 */ = {
+			isa = PBXGroup;
+			children = (
+				C73985391ED2D4F3001CF86E /* AppDelegate.h */,
+				C739853A1ED2D4F3001CF86E /* AppDelegate.m */,
+				C739853C1ED2D4F3001CF86E /* ViewController.h */,
+				C739853D1ED2D4F3001CF86E /* ViewController.m */,
+				C739856E1ED2D6B2001CF86E /* AudioSupport */,
+				C73985651ED2D5FA001CF86E /* FlipsideVC */,
+				C73985511ED2D5AB001CF86E /* MainVC */,
+				C739854D1ED2D53A001CF86E /* RootVC */,
+				C739853F1ED2D4F3001CF86E /* Main.storyboard */,
+				C73985421ED2D4F3001CF86E /* Assets.xcassets */,
+				C73985441ED2D4F3001CF86E /* LaunchScreen.storyboard */,
+				C73985471ED2D4F3001CF86E /* Info.plist */,
+				C73985361ED2D4F3001CF86E /* Supporting Files */,
+			);
+			path = SierpinskiLearn1;
+			sourceTree = "<group>";
+		};
+		C73985361ED2D4F3001CF86E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73985371ED2D4F3001CF86E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C739854D1ED2D53A001CF86E /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				C739855A1ED2D5CF001CF86E /* views */,
+				C739854E1ED2D544001CF86E /* RootViewController.h */,
+				C739854F1ED2D544001CF86E /* RootViewController.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		C73985511ED2D5AB001CF86E /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				C73985521ED2D5B6001CF86E /* MainView.h */,
+				C73985531ED2D5B6001CF86E /* MainView.m */,
+				C73985581ED2D5BB001CF86E /* MainView.xib */,
+				C73985541ED2D5B6001CF86E /* MainViewController.h */,
+				C73985551ED2D5B6001CF86E /* MainViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		C739855A1ED2D5CF001CF86E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C739855B1ED2D5D8001CF86E /* sierpinski.png */,
+				C739855C1ED2D5D8001CF86E /* sierpinskiIcon.png */,
+				C739855D1ED2D5D8001CF86E /* Default.png */,
+				C739855E1ED2D5D8001CF86E /* letsgo.m4v */,
+				C739855F1ED2D5D8001CF86E /* thx.m4v */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C73985651ED2D5FA001CF86E /* FlipsideVC */ = {
+			isa = PBXGroup;
+			children = (
+				C73985661ED2D64F001CF86E /* FlipsideView.h */,
+				C73985671ED2D64F001CF86E /* FlipsideView.m */,
+				C739856C1ED2D699001CF86E /* FlipsideView.xib */,
+				C73985681ED2D64F001CF86E /* FlipsideViewController.h */,
+				C73985691ED2D64F001CF86E /* FlipsideViewController.m */,
+			);
+			path = FlipsideVC;
+			sourceTree = "<group>";
+		};
+		C739856E1ED2D6B2001CF86E /* AudioSupport */ = {
+			isa = PBXGroup;
+			children = (
+				C739856F1ED2D6B2001CF86E /* SoundEngine.cpp */,
+				C73985701ED2D6B2001CF86E /* SoundEngine.h */,
+			);
+			path = AudioSupport;
+			sourceTree = "<group>";
+		};
+		C73985721ED2D6C4001CF86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73985731ED2D6C4001CF86E /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73985321ED2D4F3001CF86E /* SierpinskiLearn1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C739854A1ED2D4F3001CF86E /* Build configuration list for PBXNativeTarget "SierpinskiLearn1" */;
+			buildPhases = (
+				C739852F1ED2D4F3001CF86E /* Sources */,
+				C73985301ED2D4F3001CF86E /* Frameworks */,
+				C73985311ED2D4F3001CF86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SierpinskiLearn1;
+			productName = SierpinskiLearn1;
+			productReference = C73985331ED2D4F3001CF86E /* SierpinskiLearn1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C739852B1ED2D4F3001CF86E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaoyulong;
+				TargetAttributes = {
+					C73985321ED2D4F3001CF86E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 76A5MLR63J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C739852E1ED2D4F3001CF86E /* Build configuration list for PBXProject "SierpinskiLearn1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C739852A1ED2D4F3001CF86E;
+			productRefGroup = C73985341ED2D4F3001CF86E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73985321ED2D4F3001CF86E /* SierpinskiLearn1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73985311ED2D4F3001CF86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C739856D1ED2D699001CF86E /* FlipsideView.xib in Resources */,
+				C73985641ED2D5D8001CF86E /* thx.m4v in Resources */,
+				C73985461ED2D4F3001CF86E /* LaunchScreen.storyboard in Resources */,
+				C73985611ED2D5D8001CF86E /* sierpinskiIcon.png in Resources */,
+				C73985591ED2D5BB001CF86E /* MainView.xib in Resources */,
+				C73985601ED2D5D8001CF86E /* sierpinski.png in Resources */,
+				C73985621ED2D5D8001CF86E /* Default.png in Resources */,
+				C73985631ED2D5D8001CF86E /* letsgo.m4v in Resources */,
+				C73985431ED2D4F3001CF86E /* Assets.xcassets in Resources */,
+				C73985411ED2D4F3001CF86E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C739852F1ED2D4F3001CF86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73985561ED2D5B6001CF86E /* MainView.m in Sources */,
+				C73985571ED2D5B6001CF86E /* MainViewController.m in Sources */,
+				C739856B1ED2D64F001CF86E /* FlipsideViewController.m in Sources */,
+				C739853E1ED2D4F3001CF86E /* ViewController.m in Sources */,
+				C739853B1ED2D4F3001CF86E /* AppDelegate.m in Sources */,
+				C739856A1ED2D64F001CF86E /* FlipsideView.m in Sources */,
+				C73985711ED2D6B2001CF86E /* SoundEngine.cpp in Sources */,
+				C73985501ED2D544001CF86E /* RootViewController.m in Sources */,
+				C73985381ED2D4F3001CF86E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C739853F1ED2D4F3001CF86E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73985401ED2D4F3001CF86E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C73985441ED2D4F3001CF86E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73985451ED2D4F3001CF86E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73985481ED2D4F3001CF86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C73985491ED2D4F3001CF86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C739854B1ED2D4F3001CF86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = SierpinskiLearn1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.SierpinskiLearn1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C739854C1ED2D4F3001CF86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = SierpinskiLearn1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.SierpinskiLearn1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C739852E1ED2D4F3001CF86E /* Build configuration list for PBXProject "SierpinskiLearn1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73985481ED2D4F3001CF86E /* Debug */,
+				C73985491ED2D4F3001CF86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C739854A1ED2D4F3001CF86E /* Build configuration list for PBXNativeTarget "SierpinskiLearn1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C739854B1ED2D4F3001CF86E /* Debug */,
+				C739854C1ED2D4F3001CF86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C739852B1ED2D4F3001CF86E /* Project object */;
+}
