@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '23.0.2'
+
+    //useLibrary 'org.apache.http.legacy'   //targetSdkVersion 版本大于23时,需要使用这个lib
+
+    defaultConfig {
+        applicationId "cn.tsign.esign.quicksignsdkdemo"
+        minSdkVersion 15
+        targetSdkVersion 22   //编译版本如>=23    安装软件后，系统不会给应用分配拍照权限，会导致程序出错
+        versionCode 2
+        versionName "2.0"
+    }
+    productFlavors {
+        TimeVale0001 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TimeVale0001"]
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>加载.so文件需要的配置>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<加载.so文件需要的配置<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+}
+
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+dependencies {
+    compile(name: 'QuickSignSDK-release', ext: 'aar')
+    compile(name: 'tSignNetLib-release', ext: 'aar')
+//    compile project(':QuickSignSDK')
+    compile "com.android.support:appcompat-v7:22.2.1"
+    testCompile 'junit:junit:4.12'
+}

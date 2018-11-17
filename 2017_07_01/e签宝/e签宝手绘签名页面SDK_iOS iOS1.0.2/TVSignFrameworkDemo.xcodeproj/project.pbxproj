@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B014F0B1CE33ADF005BA466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B014F0A1CE33ADF005BA466 /* main.m */; };
+		1B014F0E1CE33ADF005BA466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B014F0D1CE33ADF005BA466 /* AppDelegate.m */; };
+		1B014F141CE33ADF005BA466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B014F121CE33ADF005BA466 /* Main.storyboard */; };
+		1B014F161CE33ADF005BA466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B014F151CE33ADF005BA466 /* Assets.xcassets */; };
+		1B014F191CE33ADF005BA466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B014F171CE33ADF005BA466 /* LaunchScreen.storyboard */; };
+		1B014F241CE33ADF005BA466 /* TVSignFrameworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B014F231CE33ADF005BA466 /* TVSignFrameworkDemoTests.m */; };
+		1B26B3571D658E4100C2D2B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B786F521D057CDA009B3BB9 /* AVFoundation.framework */; };
+		1B2715601D5895A50032050E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBE8A311D17C23500AC591D /* libresolv.tbd */; };
+		1B2715621D5896220032050E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B807B311D017C760047A629 /* libstdc++.tbd */; };
+		1B3AB29E1E2397EF0090DD08 /* TVSignFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3AB29D1E2397EF0090DD08 /* TVSignFramework.framework */; };
+		1B4B491C1DED0C0A00E3E913 /* TVSignFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4B49191DED0C0A00E3E913 /* TVSignFramework.framework */; };
+		1B4B491D1DED0C0A00E3E913 /* TVSignFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4B491B1DED0C0A00E3E913 /* TVSignFramework.framework */; };
+		1B786F581D057CF7009B3BB9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B807B381D0183670047A629 /* GLKit.framework */; };
+		1B8F7FC61D050FF200219B86 /* TVSignFrameworkRes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F7FC51D050FF200219B86 /* TVSignFrameworkRes.plist */; };
+		1B9635131CFEADCC00B794B6 /* TVBeginSignVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B96350B1CFEADCC00B794B6 /* TVBeginSignVC.m */; };
+		1B9635161CFEADCC00B794B6 /* TVSignFrameworkRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B9635101CFEADCC00B794B6 /* TVSignFrameworkRes.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B014F201CE33ADF005BA466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B014EFE1CE33ADF005BA466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B014F051CE33ADF005BA466;
+			remoteInfo = TVSignFrameworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B014F061CE33ADF005BA466 /* e签宝快捷签sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e签宝快捷签sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B014F0A1CE33ADF005BA466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B014F0C1CE33ADF005BA466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B014F0D1CE33ADF005BA466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B014F131CE33ADF005BA466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B014F151CE33ADF005BA466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B014F181CE33ADF005BA466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B014F1A1CE33ADF005BA466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B014F1F1CE33ADF005BA466 /* TVSignFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVSignFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B014F231CE33ADF005BA466 /* TVSignFrameworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSignFrameworkDemoTests.m; sourceTree = "<group>"; };
+		1B014F251CE33ADF005BA466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B014F2E1CE33ADF005BA466 /* TVSignFrameworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSignFrameworkDemoUITests.m; sourceTree = "<group>"; };
+		1B014F301CE33ADF005BA466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3AB29D1E2397EF0090DD08 /* TVSignFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVSignFramework.framework; sourceTree = "<group>"; };
+		1B4B49191DED0C0A00E3E913 /* TVSignFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVSignFramework.framework; sourceTree = "<group>"; };
+		1B4B491B1DED0C0A00E3E913 /* TVSignFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TVSignFramework.framework; sourceTree = "<group>"; };
+		1B786F521D057CDA009B3BB9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B807B311D017C760047A629 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		1B807B381D0183670047A629 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1B8F7FC51D050FF200219B86 /* TVSignFrameworkRes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TVSignFrameworkRes.plist; sourceTree = "<group>"; };
+		1B96350A1CFEADCC00B794B6 /* TVBeginSignVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVBeginSignVC.h; sourceTree = "<group>"; };
+		1B96350B1CFEADCC00B794B6 /* TVBeginSignVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVBeginSignVC.m; sourceTree = "<group>"; };
+		1B9635101CFEADCC00B794B6 /* TVSignFrameworkRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TVSignFrameworkRes.bundle; sourceTree = "<group>"; };
+		1BBE8A311D17C23500AC591D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B014F031CE33ADF005BA466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4B491C1DED0C0A00E3E913 /* TVSignFramework.framework in Frameworks */,
+				1B2715621D5896220032050E /* libstdc++.tbd in Frameworks */,
+				1B2715601D5895A50032050E /* libresolv.tbd in Frameworks */,
+				1B4B491D1DED0C0A00E3E913 /* TVSignFramework.framework in Frameworks */,
+				1B3AB29E1E2397EF0090DD08 /* TVSignFramework.framework in Frameworks */,
+				1B26B3571D658E4100C2D2B9 /* AVFoundation.framework in Frameworks */,
+				1B786F581D057CF7009B3BB9 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B014F1C1CE33ADF005BA466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B014EFD1CE33ADF005BA466 = {
+			isa = PBXGroup;
+			children = (
+				1B014F081CE33ADF005BA466 /* TVSignFrameworkDemo */,
+				1B014F221CE33ADF005BA466 /* TVSignFrameworkDemoTests */,
+				1B014F2D1CE33ADF005BA466 /* TVSignFrameworkDemoUITests */,
+				1B014F3E1CE33B13005BA466 /* Frameworks */,
+				1B014F071CE33ADF005BA466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B014F071CE33ADF005BA466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B014F061CE33ADF005BA466 /* e签宝快捷签sdk.app */,
+				1B014F1F1CE33ADF005BA466 /* TVSignFrameworkDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B014F081CE33ADF005BA466 /* TVSignFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1B9635071CFEADCC00B794B6 /* Ctrls */,
+				1B96350D1CFEADCC00B794B6 /* Libs */,
+				1B014F0C1CE33ADF005BA466 /* AppDelegate.h */,
+				1B014F0D1CE33ADF005BA466 /* AppDelegate.m */,
+				1B014F121CE33ADF005BA466 /* Main.storyboard */,
+				1B014F151CE33ADF005BA466 /* Assets.xcassets */,
+				1B014F171CE33ADF005BA466 /* LaunchScreen.storyboard */,
+				1B014F091CE33ADF005BA466 /* Supporting Files */,
+			);
+			path = TVSignFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		1B014F091CE33ADF005BA466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B014F1A1CE33ADF005BA466 /* Info.plist */,
+				1B014F0A1CE33ADF005BA466 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B014F221CE33ADF005BA466 /* TVSignFrameworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B014F231CE33ADF005BA466 /* TVSignFrameworkDemoTests.m */,
+				1B014F251CE33ADF005BA466 /* Info.plist */,
+			);
+			path = TVSignFrameworkDemoTests;
+			sourceTree = "<group>";
+		};
+		1B014F2D1CE33ADF005BA466 /* TVSignFrameworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B014F2E1CE33ADF005BA466 /* TVSignFrameworkDemoUITests.m */,
+				1B014F301CE33ADF005BA466 /* Info.plist */,
+			);
+			path = TVSignFrameworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		1B014F3E1CE33B13005BA466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B786F521D057CDA009B3BB9 /* AVFoundation.framework */,
+				1B807B381D0183670047A629 /* GLKit.framework */,
+				1B807B311D017C760047A629 /* libstdc++.tbd */,
+				1BBE8A311D17C23500AC591D /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B3AB29C1E2397EF0090DD08 /* sim */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB29D1E2397EF0090DD08 /* TVSignFramework.framework */,
+			);
+			path = sim;
+			sourceTree = "<group>";
+		};
+		1B4B49181DED0C0A00E3E913 /* 非bitcode版本 */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B49191DED0C0A00E3E913 /* TVSignFramework.framework */,
+			);
+			path = "非bitcode版本";
+			sourceTree = "<group>";
+		};
+		1B4B491A1DED0C0A00E3E913 /* bitcode版本 */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B491B1DED0C0A00E3E913 /* TVSignFramework.framework */,
+			);
+			path = "bitcode版本";
+			sourceTree = "<group>";
+		};
+		1B9635071CFEADCC00B794B6 /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				1B96350A1CFEADCC00B794B6 /* TVBeginSignVC.h */,
+				1B96350B1CFEADCC00B794B6 /* TVBeginSignVC.m */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		1B96350D1CFEADCC00B794B6 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB29C1E2397EF0090DD08 /* sim */,
+				1B4B49181DED0C0A00E3E913 /* 非bitcode版本 */,
+				1B4B491A1DED0C0A00E3E913 /* bitcode版本 */,
+				1B9635101CFEADCC00B794B6 /* TVSignFrameworkRes.bundle */,
+				1B8F7FC51D050FF200219B86 /* TVSignFrameworkRes.plist */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B014F051CE33ADF005BA466 /* TVSignFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B014F331CE33ADF005BA466 /* Build configuration list for PBXNativeTarget "TVSignFrameworkDemo" */;
+			buildPhases = (
+				1B014F021CE33ADF005BA466 /* Sources */,
+				1B014F041CE33ADF005BA466 /* Resources */,
+				1B014F031CE33ADF005BA466 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVSignFrameworkDemo;
+			productName = TVSignFrameworkDemo;
+			productReference = 1B014F061CE33ADF005BA466 /* e签宝快捷签sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B014F1E1CE33ADF005BA466 /* TVSignFrameworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B014F361CE33ADF005BA466 /* Build configuration list for PBXNativeTarget "TVSignFrameworkDemoTests" */;
+			buildPhases = (
+				1B014F1B1CE33ADF005BA466 /* Sources */,
+				1B014F1C1CE33ADF005BA466 /* Frameworks */,
+				1B014F1D1CE33ADF005BA466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B014F211CE33ADF005BA466 /* PBXTargetDependency */,
+			);
+			name = TVSignFrameworkDemoTests;
+			productName = TVSignFrameworkDemoTests;
+			productReference = 1B014F1F1CE33ADF005BA466 /* TVSignFrameworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B014EFE1CE33ADF005BA466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Timevale;
+				TargetAttributes = {
+					1B014F051CE33ADF005BA466 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76A5MLR63J;
+					};
+					1B014F1E1CE33ADF005BA466 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76A5MLR63J;
+						TestTargetID = 1B014F051CE33ADF005BA466;
+					};
+				};
+			};
+			buildConfigurationList = 1B014F011CE33ADF005BA466 /* Build configuration list for PBXProject "TVSignFrameworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B014EFD1CE33ADF005BA466;
+			productRefGroup = 1B014F071CE33ADF005BA466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B014F051CE33ADF005BA466 /* TVSignFrameworkDemo */,
+				1B014F1E1CE33ADF005BA466 /* TVSignFrameworkDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B014F041CE33ADF005BA466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8F7FC61D050FF200219B86 /* TVSignFrameworkRes.plist in Resources */,
+				1B9635161CFEADCC00B794B6 /* TVSignFrameworkRes.bundle in Resources */,
+				1B014F191CE33ADF005BA466 /* LaunchScreen.storyboard in Resources */,
+				1B014F161CE33ADF005BA466 /* Assets.xcassets in Resources */,
+				1B014F141CE33ADF005BA466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B014F1D1CE33ADF005BA466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B014F021CE33ADF005BA466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B014F0E1CE33ADF005BA466 /* AppDelegate.m in Sources */,
+				1B9635131CFEADCC00B794B6 /* TVBeginSignVC.m in Sources */,
+				1B014F0B1CE33ADF005BA466 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B014F1B1CE33ADF005BA466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B014F241CE33ADF005BA466 /* TVSignFrameworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B014F211CE33ADF005BA466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B014F051CE33ADF005BA466 /* TVSignFrameworkDemo */;
+			targetProxy = 1B014F201CE33ADF005BA466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B014F121CE33ADF005BA466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B014F131CE33ADF005BA466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B014F171CE33ADF005BA466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B014F181CE33ADF005BA466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B014F311CE33ADF005BA466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B014F321CE33ADF005BA466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B014F341CE33ADF005BA466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/bitcode版本",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/非bitcode版本",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/sim",
+				);
+				INFOPLIST_FILE = TVSignFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.TVSignFrameworkDemo;
+				PRODUCT_NAME = "e签宝快捷签sdk";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1B014F351CE33ADF005BA466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/bitcode版本",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/非bitcode版本",
+					"$(PROJECT_DIR)/TVSignFrameworkDemo/Libs/sim",
+				);
+				INFOPLIST_FILE = TVSignFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztev.TVSignFrameworkDemo;
+				PRODUCT_NAME = "e签宝快捷签sdk";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1B014F371CE33ADF005BA466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = TVSignFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timevale.TVSignFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e签宝快捷签sdk.app/e签宝快捷签sdk";
+			};
+			name = Debug;
+		};
+		1B014F381CE33ADF005BA466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76A5MLR63J;
+				INFOPLIST_FILE = TVSignFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timevale.TVSignFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e签宝快捷签sdk.app/e签宝快捷签sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B014F011CE33ADF005BA466 /* Build configuration list for PBXProject "TVSignFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B014F311CE33ADF005BA466 /* Debug */,
+				1B014F321CE33ADF005BA466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B014F331CE33ADF005BA466 /* Build configuration list for PBXNativeTarget "TVSignFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B014F341CE33ADF005BA466 /* Debug */,
+				1B014F351CE33ADF005BA466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B014F361CE33ADF005BA466 /* Build configuration list for PBXNativeTarget "TVSignFrameworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B014F371CE33ADF005BA466 /* Debug */,
+				1B014F381CE33ADF005BA466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B014EFE1CE33ADF005BA466 /* Project object */;
+}

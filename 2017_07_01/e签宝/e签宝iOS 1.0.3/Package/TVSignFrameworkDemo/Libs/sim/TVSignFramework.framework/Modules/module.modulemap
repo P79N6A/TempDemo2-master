@@ -1,0 +1,6 @@
+framework module TVSignFramework {
+  umbrella header "TVSignFramework.h"
+
+  export *
+  module * { export * }
+}

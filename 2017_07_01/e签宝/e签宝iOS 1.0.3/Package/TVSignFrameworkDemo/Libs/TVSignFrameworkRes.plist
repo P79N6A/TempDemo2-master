@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bar Tint Color</key>
+	<string>D0021B</string>
+	<key>Title Tint Color</key>
+	<string>FFFFFF</string>
+	<key>Status Bar Style</key>
+	<integer>1</integer>
+	<key>Draw Sign Tip Text</key>
+	<string>自定义提示</string>
+	<key>Draw Sign Title Text</key>
+	<string>创建您的签名</string>
+	<key>Draw Sign Tip Direction</key>
+	<integer>0</integer>
+	<key>Draw Sign Color Bit</key>
+	<integer>7</integer>
+	<key>Server Environment</key>
+	<integer>0</integer>
+	<key>Portrait Title Tint Color</key>
+	<string>101014</string>
+	<key>Portrait Cancel Tint Color</key>
+	<string>929292</string>
+	<key>Portrait Cancel Border Color</key>
+	<string>bababa</string>
+	<key>Portrait Full Tint Color</key>
+	<string>ce000e</string>
+	<key>Portrait Full Border Color</key>
+	<string>ce000e</string>
+	<key>Portrait Clear Border Color</key>
+	<string>dddddd</string>
+	<key>Portrait Clear Bg Color</key>
+	<string>f8f8f8</string>
+	<key>Portrait Clear Tint Color</key>
+	<string>323232</string>
+	<key>Portrait Clear Title Text</key>
+	<string>清除</string>
+	<key>Portrait Done Border Color</key>
+	<string>ce000e</string>
+	<key>Portrait Done Bg Color</key>
+	<string>ce000e</string>
+	<key>Portrait Done Tint Color</key>
+	<string>ffffff</string>
+	<key>Portrait Done Title Text</key>
+	<string>完成</string>
+</dict>
+</plist>

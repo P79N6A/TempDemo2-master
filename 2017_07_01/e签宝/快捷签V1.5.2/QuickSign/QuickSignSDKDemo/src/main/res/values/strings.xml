@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">e签宝SdkDemo</string>
+    <string name="sign_title">请签名</string>
+</resources>
